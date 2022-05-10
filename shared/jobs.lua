@@ -13,28 +13,28 @@ QBShared.Jobs = {
         },
 	},
 	['police'] = {
-		label = 'Law Enforcement',
+		label = 'Prison Guard',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Officer',
                 payment = 50
             },
 			['1'] = {
-                name = 'Officer',
+                name = 'Sergeant',
                 payment = 75
             },
 			['2'] = {
-                name = 'Sergeant',
+                name = 'Lieutenant',
                 payment = 100
             },
 			['3'] = {
-                name = 'Lieutenant',
+                name = 'Major',
                 payment = 125
             },
 			['4'] = {
-                name = 'Chief',
+                name = 'Warden',
 				isboss = true,
                 payment = 150
             },
